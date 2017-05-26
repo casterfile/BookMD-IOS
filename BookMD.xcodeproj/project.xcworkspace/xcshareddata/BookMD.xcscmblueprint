@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "72FB5C027C248C12CBE912526DF958B37FAA5FF7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D7C16E61D8778BAFAAB858583C3B42A17C53EF7C" : 9223372036854775807,
+    "72FB5C027C248C12CBE912526DF958B37FAA5FF7" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BF4BB753-BD0B-4602-9E16-D2FD6FD32790",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D7C16E61D8778BAFAAB858583C3B42A17C53EF7C" : "..\/..\/..\/..\/..\/Desktop\/facebook-sdk-swift",
+    "72FB5C027C248C12CBE912526DF958B37FAA5FF7" : "BookMD\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BookMD",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BookMD.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/casterfile\/BookMD-IOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "72FB5C027C248C12CBE912526DF958B37FAA5FF7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/facebook\/facebook-sdk-swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D7C16E61D8778BAFAAB858583C3B42A17C53EF7C"
+    }
+  ]
+}
