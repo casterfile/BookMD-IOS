@@ -3,7 +3,7 @@ Developer: Anthony A. Castor
 
 This Source does not give any warranty please use at your own risk </br>
 
-BookMD Development ... Alrights Reserver (C) Immersivemedia </br>
+BookMD Development ... Copyright 2017 - Immersive Media All Rights Reserved. </br>
 URL: immersivemedia.ph  </br>
 
 This application is free of virus or malware </br>
