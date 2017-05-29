@@ -10,6 +10,10 @@
 		1B14ED33CCCCED21AEA781D5 /* Pods_BookMDUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE1306603974C84DBBC12A3 /* Pods_BookMDUITests.framework */; };
 		457C0BBB3417EDE56DD2A616 /* Pods_BookMD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915BBE32168D9F7F0CCF2E57 /* Pods_BookMD.framework */; };
 		B3733257BBFA50CD791BB2AD /* Pods_BookMDTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA49C9A51A879BFE8D19D6E /* Pods_BookMDTests.framework */; };
+		F43E31F61EDBCBF500ED4189 /* MainBookMDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43E31F51EDBCBF500ED4189 /* MainBookMDViewController.swift */; };
+		F43E31F81EDBDC3800ED4189 /* MainBookMD.png in Resources */ = {isa = PBXBuildFile; fileRef = F43E31F71EDBDC3800ED4189 /* MainBookMD.png */; };
+		F43E31FC1EDBDD9400ED4189 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43E31FB1EDBDD9400ED4189 /* RegistrationViewController.swift */; };
+		F43E31FE1EDBDF5600ED4189 /* Registration.png in Resources */ = {isa = PBXBuildFile; fileRef = F43E31FD1EDBDF5600ED4189 /* Registration.png */; };
 		F4DCB6221ED7BD7400700AD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DCB6211ED7BD7400700AD4 /* AppDelegate.swift */; };
 		F4DCB6241ED7BD7400700AD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DCB6231ED7BD7400700AD4 /* ViewController.swift */; };
 		F4DCB6271ED7BD7400700AD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DCB6251ED7BD7400700AD4 /* Main.storyboard */; };
@@ -51,6 +55,10 @@
 		915BBE32168D9F7F0CCF2E57 /* Pods_BookMD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookMD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C8E309254CA5CA38563EC2A /* Pods-BookMDUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMDUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookMDUITests/Pods-BookMDUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AFE1306603974C84DBBC12A3 /* Pods_BookMDUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookMDUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43E31F51EDBCBF500ED4189 /* MainBookMDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainBookMDViewController.swift; sourceTree = "<group>"; };
+		F43E31F71EDBDC3800ED4189 /* MainBookMD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainBookMD.png; sourceTree = "<group>"; };
+		F43E31FB1EDBDD9400ED4189 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		F43E31FD1EDBDF5600ED4189 /* Registration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Registration.png; sourceTree = "<group>"; };
 		F4B956CD71EE0737CCB9B4E9 /* Pods-BookMD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMD.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookMD/Pods-BookMD.release.xcconfig"; sourceTree = "<group>"; };
 		F4DCB61E1ED7BD7400700AD4 /* BookMD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookMD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DCB6211ED7BD7400700AD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -152,12 +160,14 @@
 		F4DCB6201ED7BD7400700AD4 /* BookMD */ = {
 			isa = PBXGroup;
 			children = (
+				F43E31F51EDBCBF500ED4189 /* MainBookMDViewController.swift */,
 				F4DCB6211ED7BD7400700AD4 /* AppDelegate.swift */,
 				F4DCB6231ED7BD7400700AD4 /* ViewController.swift */,
 				F4DCB6251ED7BD7400700AD4 /* Main.storyboard */,
 				F4DCB6281ED7BD7400700AD4 /* Assets.xcassets */,
 				F4DCB62A1ED7BD7400700AD4 /* LaunchScreen.storyboard */,
 				F4DCB62D1ED7BD7400700AD4 /* Info.plist */,
+				F43E31FB1EDBDD9400ED4189 /* RegistrationViewController.swift */,
 			);
 			path = BookMD;
 			sourceTree = "<group>";
@@ -183,6 +193,8 @@
 		F4DCB64F1ED7C5DF00700AD4 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				F43E31FD1EDBDF5600ED4189 /* Registration.png */,
+				F43E31F71EDBDC3800ED4189 /* MainBookMD.png */,
 				F4DCB6501ED7C5EE00700AD4 /* Scene_0.png */,
 				F4DCB6521ED7C6B700700AD4 /* Scene_1.png */,
 				F4DCB6541ED7CB2800700AD4 /* Scene_1_btnLogin.png */,
@@ -315,9 +327,11 @@
 			files = (
 				F4DCB65A1ED7CB2800700AD4 /* Scene_1_btnSigninwithFacebook.png in Resources */,
 				F4DCB65C1ED7CB2800700AD4 /* Scene_1_txtPassword.png in Resources */,
+				F43E31F81EDBDC3800ED4189 /* MainBookMD.png in Resources */,
 				F4DCB62C1ED7BD7400700AD4 /* LaunchScreen.storyboard in Resources */,
 				F4DCB6591ED7CB2800700AD4 /* Scene_1_btnLogin.png in Resources */,
 				F4DCB6291ED7BD7400700AD4 /* Assets.xcassets in Resources */,
+				F43E31FE1EDBDF5600ED4189 /* Registration.png in Resources */,
 				F4DCB65D1ED7CB2800700AD4 /* Scene_1_txtUsername.png in Resources */,
 				F4DCB6271ED7BD7400700AD4 /* Main.storyboard in Resources */,
 				F4DCB6531ED7C6B700700AD4 /* Scene_1.png in Resources */,
@@ -485,7 +499,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F43E31F61EDBCBF500ED4189 /* MainBookMDViewController.swift in Sources */,
 				F4DCB6241ED7BD7400700AD4 /* ViewController.swift in Sources */,
+				F43E31FC1EDBDD9400ED4189 /* RegistrationViewController.swift in Sources */,
 				F4DCB6221ED7BD7400700AD4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

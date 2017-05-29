@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BookMD" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="MainBookMD" storyboardIdentifier="MainBookMD" id="BYZ-38-t0r" customClass="ViewController" customModule="BookMD" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -33,28 +33,40 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCm-WA-yvI">
-                                <rect key="frame" x="60" y="438" width="254" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="66" y="438" width="248" height="55"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                 <color key="tintColor" red="0.92576219859999997" green="0.93623803419999996" blue="0.99795484290000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" image="Scene_1_btnLogin.png">
                                     <color key="titleColor" red="0.92576219859999997" green="0.93623803419999996" blue="0.99795484290000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="LoginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GUQ-8S-rpL"/>
+                                    <segue destination="4cr-Ss-FPq" kind="show" identifier="LoginToBookMD" id="HvB-YX-WKK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QtI-dH-zFn">
-                                <rect key="frame" x="60" y="499" width="254" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="66" y="499" width="248" height="55"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                 <color key="tintColor" red="0.92576219859999997" green="0.93623803419999996" blue="0.99795484290000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" image="Scene_1_btnSignUp.png">
                                     <color key="titleColor" red="0.92576219859999997" green="0.93623803419999996" blue="0.99795484290000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="RegistrationButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rFz-PS-6FX"/>
+                                    <segue destination="gat-P4-sRn" kind="show" identifier="Registration" id="Hrf-R7-QRL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U4h-PU-R2a">
-                                <rect key="frame" x="60" y="558" width="254" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="66" y="558" width="248" height="55"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                 <color key="tintColor" red="0.92576219859999997" green="0.93623803419999996" blue="0.99795484290000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" image="Scene_1_btnSigninwithFacebook.png">
                                     <color key="titleColor" red="0.92576219859999997" green="0.93623803419999996" blue="0.99795484290000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="FBLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fks-qi-LUw"/>
+                                    <segue destination="4cr-Ss-FPq" kind="show" identifier="MainBookMD" id="GWg-q4-AEm"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="center" minimumFontSize="17" background="Scene_1_txtUsername.png" translatesAutoresizingMaskIntoConstraints="NO" id="P7a-ub-cR2">
                                 <rect key="frame" x="66" y="287" width="248" height="39"/>
@@ -71,8 +83,75 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="ZbC-jQ-xNh">
+            <objects>
+                <viewController id="4cr-Ss-FPq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8Kb-up-3bN"/>
+                        <viewControllerLayoutGuide type="bottom" id="ILS-B2-lqr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WdN-a3-1Pq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MainBookMD.png" translatesAutoresizingMaskIntoConstraints="NO" id="U9U-YR-BjS">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Keu-FR-vPh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1113" y="426"/>
+        </scene>
+        <!--Registration View Controller-->
+        <scene sceneID="FSl-42-k08">
+            <objects>
+                <viewController id="gat-P4-sRn" customClass="RegistrationViewController" customModule="BookMD" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iE0-cY-jdV"/>
+                        <viewControllerLayoutGuide type="bottom" id="5pg-eI-YEo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Rr7-tc-R4z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Registration.png" translatesAutoresizingMaskIntoConstraints="NO" id="rqr-xn-2U9">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H8i-jy-IaO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1069.5999999999999" y="-282.00899550224892"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QSk-YN-nXW">
+            <objects>
+                <viewController id="9GJ-rq-rg3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CM0-Pf-w3d"/>
+                        <viewControllerLayoutGuide type="bottom" id="cTb-cY-lhs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1YK-sQ-odK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3s0-Mp-2af" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
     </scenes>
     <resources>
+        <image name="MainBookMD.png" width="639" height="1132"/>
+        <image name="Registration.png" width="634" height="1134"/>
         <image name="Scene_1.png" width="638" height="1132"/>
         <image name="Scene_1_btnLogin.png" width="490" height="91"/>
         <image name="Scene_1_btnSignUp.png" width="491" height="91"/>
@@ -80,4 +159,7 @@
         <image name="Scene_1_txtPassword.png" width="492" height="88"/>
         <image name="Scene_1_txtUsername.png" width="493" height="80"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="HvB-YX-WKK"/>
+    </inferredMetricsTieBreakers>
 </document>
